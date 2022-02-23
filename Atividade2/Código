@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC news</title>
+
+
+
+</head>
+<body>
+
+    <center>
+        <img src="https://64.media.tumblr.com/58339817aa531d3ab2db6977a7398948/a72d77f0e073e379-29/s1280x1920/fa1b1f1c63a1fd570a0933183b11b05c61e3fc9d.jpg" width="520px"/>
+    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"> PROPOSTA VISUAL BBC NEWS</h1>
+    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; size: 30px;">1997-2017</h2>
+    </center>
+
+    <table border="0">
+        <tr>
+            <th width="500" style="font-size:20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
+                <p style="font-size: 50px;">1997</p>
+                O site possui 3 colunas para leitura o que é uma boa divisão para que ele pareça visualmente com um jornal.
+    
+                Apesar disso a barra de navegação ocupa um pedaço inteiro da folha com links super marcados e sublinhados, criando um modelo de 
+                navegação confusa (O menu horizontal possui uma parte escrita em mandarim e outra em árabe.
+                
+                Considerando a tecnologia da época onde a Internet alcançada pela a maioria dos usuários era de 56Kbps e a resolução de tela de 
+                620 pixels o site cumpre uma função de carater informativo, apesar de ser confuso de encontrar as informações.      
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/9DFF/production/_98674404_online1997_emufrontpage_976-nc.png" width="500px"/>      
+                </th>
+
+                <th width="500" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 20px;">
+                
+                    <p style="font-size: 50px;">2003</p>
+
+                A proposta de um layout em colunas para visualmente lembrar manchetes continua (Visual que é utilizado e bem visto até hoje por web
+                 sites pioneiros em informação) dessa vez a barra de pesquisa horizontal é mais longa, uma coluna a mais é adicionada para que o 
+                 usuário tenha acesso a mais informações de uma só vez, o modelo de navegação é mais limpo e organizado por tópicos em uma só língua.
+                
+                    <p style="font-size: 50px;">2008</p>
+
+                Aqui menu horizontal ficou ainda mais largo, o que possibilita um espaço melhor para separação de textos que agora são 
+                fáceis de serem varridos por manchetes curtas e diretas (Outro detalhe importante de se pontuar é que agora o site possui 
+                redirecionamento para assistir os vídeos sobre  a matéria). Os link a direita em vermelho melhoram tanto a estética quanto 
+                a varredura de texto.
+                </th>
+
+            <th width="500" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 20px;">
+                <p style="font-size: 50px;">2015</p>
+                A proposta organizacional agora é de duas colunas dando mais espaço para uma matéria em destaque, com um texto fácil de ser varrido,
+                 nova logo, nova identidade visual de cor vermelha e branca complementar que deixam a BBC com um aspecto bem mais sério e respeitoso.
+                  (O menu horizontal continua evoluindo e ficando cada vez mais acessível e fácil de buscar informações).
+                <p style="font-size: 50px;">2017</p>
+                O modelo de 2017 não é distante, a resolução de tela é maior devido a evolução da tecnologia acessada pelos usuários, o menu
+                 horizontal e as matérias publicadas agora contam com um suporte de animações interativas graças ao CSS e ao Java Script. 
+                 A matéria em destaque chama bem a atenção, é fácil de ser lida e acessada assim como todo o resto do conteúdo do site. 
+                 O design é simples, rápido, fácil e de confiança.
+    
+            </th>
+        </tr>
+    </table>
+
+    <center>
+    <img src="https://64.media.tumblr.com/58339817aa531d3ab2db6977a7398948/a72d77f0e073e379-29/s1280x1920/fa1b1f1c63a1fd570a0933183b11b05c61e3fc9d.jpg" width="520px"/>
+    </center>
+
+    <table border="0">
+        <tr>
+            <th width="700" style="font-size:20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; align-items: left; ">
+                   <p style="font-size: 50px;">PROBLEMAS SITE 1997</p>
+                   <p>⠀⠀⠀⠀⠀⠀⠀⠀</p>     <!--caracter em branco pra alinhar paragrafo-->     
+                O primeiro site da BBC possuía uma enorme confusão de informações pela má utilização das barras de navegações e a falta de 
+                alinhamento entre as três colunas, por ser lançado na época do Nokia 6110 a resolução de tela era muito pequena e pela velocidade
+                 da banda larga, era bem mais fácil ler um jornal físico de que esperar uma pagina carregar escrita até em mandarim.
+
+                 <p>Levando isso em conta, a página ainda cumpre seu papel, mesmo que de modo desorganizado. As informações continuam escrita mas sem filtragem
+                     de texto o que deixa seu conteúdo massante e desgastante, as pessoas lêem mais devagar na internet, em um monitor de resolução
+                     tão baixa deve ser dificil procurar informações com esse tamanho de fonte.
+                 </p>
+            </th>
+
+
+            <th width="700" style="font-size:20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
+                <p style="font-size: 50px;">PROBLEMAS SITE ATUAL 2017</p>
+                Atualmente o site possui um espaço enorme entre a barra de pesquisa e o conteúdo que dificulta o acesso. Pelo filtragem de conteudo
+                 de acordo com os gostos do usuario o site gera uma bolha de informações onde as pessoas apenas leem o que elas querem e não uma 
+                 visão total do conteudo, isso se amplifica quando é mostrado e enviado notificações apenas de assuntos que já foram acessados. 
+                <p>Além disso as duas guias horizontais inteiras somam mais de 23 links, que além de não serem alinhadas não são interativos 
+                    em formato de cascata, isso deixa o acesso por clique mais lento e longo.</p>
+            </th>
+        </tr>
+
+        <tr>
+
+            <th width="700" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 20px;">
+                <p style="font-size: 50px; align-items: center;">PROPOSTA LAYOUT PARA JOVENS PERIFÉRICOS</p>
+                Um layout interativo com as manchetes, as informações teriam uma proposta visual tão boa que os usuários 
+                entenderiam do que se trata o conteudo sem se quer ler a materia, uma boa proposta para atrair jovens a sites,
+                 é a interatividade e o modo com que a arte é tratada (Mais arte, mais divertido, mais jovens) os jovens de 
+                 periferia muitas vezes possuem baixa escolaridade e baixo uso de internet, computadores.
+
+                <p>Criar uma proposta artistica para subtituir a grande quantidade texto elimina a barreira de atrair o jovem,
+                 tornar a informação fácil de ser compreendida atravez de artes ( o piche por exemplo, grande condutor de informações)
+                  ou metáforas culturais da comunidade faz com que nossos usuários não precisem ser um expert em informatica para usa-la.
+                   A navegação deve ser simplis, facil, util e agradavel.</p>
+            </th>
+
+            <th> 
+
+            <img src="https://i.pinimg.com/564x/ca/63/73/ca6373b3c35ef3087155f28784153efa.jpg"/>
+                
+            </th>
+        </tr>
+
+    </table>
+</body>
+</html>
