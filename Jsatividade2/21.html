@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21</title>
+
+    <script>
+        var n1 = parseFloat(prompt("Digite a nota da primeira avaliação normal"));
+        var n2 = parseFloat(prompt("Digite a nota da segunda avaliação normal"));
+        var optativa = parseInt(prompt("Digite a nota da avaliação optativa"));
+        
+        if (optativa > n1){
+
+            media = n2 + optativa;
+
+        }
+
+        if (optativa > n2){
+
+            media = n1 + optativa;
+        }
+
+
+        if (media >= 6.0){
+
+            alert("media igual a: " + media + " Aprovado")
+        }
+
+        if (media < 3.0){
+
+            alert("media igual a: " + media + " Reprovado")
+        }
+
+        if (media >= 3.0 && media <6.0){
+
+            alert("media igual a: " + media + " Exame")
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

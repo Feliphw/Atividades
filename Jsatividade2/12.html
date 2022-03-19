@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12</title>
+
+    <script>
+
+        var kmTotalCircuito = parseInt(prompt("Digite a quantidade de quilometros do circuito em metros"));
+        var voltas = parseInt(prompt("Digite a quantidade de voltas que deseja dar"));
+        var Reab = parseInt(prompt("Digite quantas vezes deseja reabastecer"));
+        var QntLitros = parseInt(prompt("Digite a quantidade de litros que o carro pode possuir. "));    
+        var KmL = parseInt(prompt("Digite a quantidade de km seu carro faz por litros"));
+
+        var parada1 = voltas / Reab;
+
+        var distancia = parada1 * kmTotalCircuito / 1000;
+
+        var ConsumoateParada1 = KmL * distancia;
+
+        alert("a distancia que o carro percorreu até a primeira parada foi de: " + distancia + " km.");
+        alert("O numero de voltas que ele faz até precisar reabastecer é: " + parada1);
+        alert("O carro vai gastar " + distancia + " até a parar");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

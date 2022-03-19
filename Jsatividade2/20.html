@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20</title>
+
+    <script>
+
+        var lados = parseInt(prompt("Digite o número de lados"));
+        var ladocm = parseInt(prompt("Digite a medida dos lados em cm"));
+
+        if (lados == 3){
+
+            var perimetro = ladocm * 3;
+            alert("TRIANGULO, perimetro igual a: " + perimetro)
+        }
+
+        if (lados == 4){
+
+            alert("QUADRADO, area igual a: " + lados * lados)
+        }
+
+        if (lados == 5){
+
+            var perimetro = ladocm * 5;
+            alert("PENTÁGONO")
+        }
+
+        if (lados < 3){
+
+            alert("NÃO É UM POLIGONO")
+        }
+
+        if (lados > 5){
+
+            alert("POLIGONO NÃO IDENTIFICADO")
+        }  
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

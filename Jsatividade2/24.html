@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23</title>
+
+    <script>
+
+        var idadeJavali1 = parseInt(prompt("Digite a idade do primeiro javali"));
+        var idadeJavali2 = parseInt(prompt("Digite a idade do segundo javali"));
+        var idadeGirafa1 = parseInt(prompt("Digite a idade da primeira girafa"));
+        var idadeGirafa2 = parseInt(prompt("Digite a idade da segunda girafa"));
+
+        if (idadeJavali1 > idadeJavali2 ) {
+
+            if(idadeGirafa1 > idadeGirafa2){
+                alert("A soma da idade do javali mais velho e da girafa mais nova é de: " + (idadeJavali1 + idadeGirafa2));
+                alert("O produto do javali mais novo coma girafa mais velha é de: " + idadeJavali2 * idadeGirafa1);
+            }
+
+            if(idadeGirafa1 < idadeGirafa2){
+                alert("A soma da idade do javali mais velho e da girafa mais nova é de: " + (idadeJavali1 + idadeGirafa1));
+                alert("O produto do javali mais novo coma girafa mais velha é de: " + idadeJavali2 * idadeGirafa2);
+            }
+
+        }
+
+        if (idadeJavali1 < idadeJavali2 ) {
+
+            if(idadeGirafa1 > idadeGirafa2){
+                alert("A soma da idade do javali mais velho e da girafa mais nova é de: " + (idadeJavali2 + idadeGirafa2));
+                alert("O produto do javali mais novo coma girafa mais velha é de: " + idadeJavali1 * idadeGirafa1);
+            }
+
+            if(idadeGirafa1 < idadeGirafa2){
+                alert("A soma da idade do javali mais velho e da girafa mais nova é de: " + (idadeJavali2 + idadeGirafa1));
+                alert("O produto do javali mais novo coma girafa mais velha é de: " + idadeJavali1 * idadeGirafa2);
+            }
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
