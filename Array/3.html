@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+
+    <script>
+
+     var arrayTorper = ["Capa da invisibilidade","pedra do despertar","varinha das varinhas","poção da inocência","poção da mentira1","poção da mentira2","poção anti-inteligência"];
+     var arrayDrofo = ["Anel da invisibilidade","dois pares de botas magicas","poçao do sono","poção da inocência1","poção da inocência2"];
+
+
+     //JORNADA DO TORPER
+     // consumiu poção da mentira   
+     arrayTorper.splice(4,1);
+
+     //perdeu pedra
+     arrayTorper.splice(1,1);
+
+     //ganhou par de botas magicas do trofo
+     arrayTorper.push("botas magicas");
+     
+     //achou um escudo magico e uma espada magica
+
+     arrayTorper.push("Escudo magico");
+     arrayTorper.push("Espada magica");
+
+     //JORNADA DO DROFO
+
+     //ganhou bota magica
+     //deu essa pro torper
+
+     //usou poção do sono do Drofo
+
+     arrayDrofo.splice(2,1);
+
+     //consumiu poção anti-inteligencia do Torper
+     arrayTorper.splice(4,1);
+
+     //encontrou ovo de dragão e uma coxinha
+
+     arrayDrofo.push("Ovo de dragão");
+     arrayDrofo.push("coxinha");
+
+     document.write("Itens finais Drofo: <br>" + arrayDrofo + "<br> <br>  Itens finais Torper: <br>" + arrayTorper);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
