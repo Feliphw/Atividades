@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+
+    <script>
+
+        var n1 = parseFloat(prompt("Digite a primeira nota"));
+        var n2 = parseFloat(prompt("Digite a segunda nota"));
+        var aprovado = 0;
+        var repetiu = 0;
+
+        var media = (n1 + n2) / 2;
+
+        alert("A média do aluno é igual a: " + media);
+
+
+        var SouN = prompt("Calcular a média de outro aluno Sim/Não?");
+
+
+        while(SouN == "S") {
+
+            var n1 = parseFloat(prompt("Digite a primeira nota"));
+            var n2 = parseFloat(prompt("Digite a segunda nota"));
+
+            var media = (n1 + n2) / 2;
+            alert("A média do aluno é igual a: " + media); 
+
+            var aprovado = aprovado + 1;
+            
+            if( media => 9.5){
+
+                var aprovado = aprovado + 1;
+            
+            }      
+
+            else {
+
+                repetiu = repetiu + 1;
+            }
+
+            var SouN = prompt("Calcular a média de outro aluno Sim/Não?");
+
+            while( SouN = "N") {
+
+                alert ("A quantidade de alunos aprovados é de: " + aprovado);
+
+            }
+
+        }
+
+         if( media => 9.5){
+
+                var aprovado = aprovado + 1;
+            
+            }      
+
+            else {
+
+                repetiu = repetiu + 1;
+            }
+
+        alert ("A quantidade de alunos aprovados é de: " + aprovado);
+        
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
